@@ -1,0 +1,15 @@
+- conn_id: httpdata_nginx_intrusion
+  conn_type: http
+  host: http://httpdata_nginx_intrusion
+
+- conn_id: datawarehouse
+  conn_type: postgres
+  host: datawarehouse
+  login: postgres
+  password: password
+  schema: dwh
+  port: 5432
+
+- conn_id: httpdatanumbers
+  conn_type: http
+  host: http://httpdata
